@@ -67,7 +67,7 @@ jobs:
           fi
           echo "::set-env name=BOX_VERSION::${BOX_VERSION}"
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         if: env.skip != 'true'
         with:
           submodules: true
@@ -152,7 +152,7 @@ jobs:
           fi
           echo "::set-env name=BOX_VERSION::${BOX_VERSION}"
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         if: env.skip != 'true'
         with:
           submodules: true
